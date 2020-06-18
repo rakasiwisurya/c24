@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Bagian Header */
+header {
+
+}
+
+/* Bagian Top Wrapper */
+.top-wrapper {
+
+}
+
+/* Bagian Team Wrapper */
+.team-wrapper {
+
+}
+
+/* Bagian Join Wrapper */
+.join-wrapper {
+
+}
+
+/* Bagian Footer */
+footer {
+
+}
