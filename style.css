@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Quicksand', sans-serif;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
 }
 
 li {
@@ -18,9 +23,65 @@ a {
     text-decoration: none;
 }
 
-/* Bagian Header */
-header {
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
+.fa {
+    margin-right: 5px;
+}
+
+/* Bagian Header */
+
+/* Add a black background color to the top navigation */
+header {
+    background-color: #6C63FF;
+    color: white;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    opacity: 0.9;
+    top: 0px;
+}
+
+.title-header {
+    line-height: 65px;
+    padding-left: 25px;
+    float: left;
+    display: block;
+}
+
+.title-header h1 {
+    font-size: 18px;
+}
+
+.content-header {
+    float: right;
+    margin-right: -25px;
+}
+
+.content-header a {
+    line-height: 65px;
+    float: left;
+    color: white;
+    padding: 0 25px;
+    transition: all 0.5s;
+    display: block;
+}
+
+.content-header a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
 
 /* Bagian Top Wrapper */

@@ -5,5 +5,11 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-    
+  .content-header {
+    display: none;
   }
+  
+  .menu-icon {
+    display: block;
+  }
+}
