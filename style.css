@@ -85,8 +85,22 @@ header {
 }
 
 /* Bagian Top Wrapper */
-.top-wrapper {
-
+.top-wrapper img{
+    padding-top:150px;
+    float:right;
+    width:500px;
+    height:400px;
+    padding-right:5px;
+}
+.top-left{
+    float:left;
+    padding-left:25px;
+    padding-top:200px;
+}
+.top-left h2{
+    font-size:15px;
+    font-weight:normal;
+    padding-bottom:20px;
 }
 
 /* Bagian Team Wrapper */
