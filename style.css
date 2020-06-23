@@ -74,12 +74,7 @@ header {
   transition: all 0.5s;
 }
 
-/* .content-header a:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-} */
-
 .menu-icon {
-  color: white;
   float: left;
   font-size: 25px;
   padding: 21px 0;
@@ -88,7 +83,8 @@ header {
 
 /* Bagian Top Wrapper */
 #top-wrapper {
-  padding:180px 0px;
+  margin-top: 40px;
+  padding: 80px 0px;
 }
 
 .left{
@@ -118,19 +114,17 @@ header {
 }
   
 /* Bagian Team Wrapper */
-.team-wrapper {
-  padding: 0% 5%;
+#team-wrapper {
+  background-color: #6C63FF;
   text-align:center;
-  padding-bottom: 80px;
+  padding: 80px 0px;
 }
 
-.heading{
+#team-wrapper h2{
   color:#5b5e5e;
-  padding:80px 0px 50px 0px;
-}
-
-.heading h2{
+  margin-bottom: 30px;
   font-size: 26px;
+  color: white;
 }
 
 .teams{
@@ -139,7 +133,8 @@ header {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   padding:20px 20px;
   background-color: white;
 }
@@ -151,8 +146,10 @@ header {
 }
 
 .team-img img{
+  border-radius: 2px;
   width: 150px;
   height: 200px;
+  margin-bottom: 10px;
 }
 
 .team:hover{
