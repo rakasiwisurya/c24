@@ -40,7 +40,7 @@ a {
 /* Bagian Header */
 header {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3);
   z-index: 10;
   position: fixed;
   width: 100%;
