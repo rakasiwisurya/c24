@@ -71,10 +71,7 @@ header {
 
 /* Bagian Top Wrapper */
 .top-wrapper {
-    padding-top:80px;
-    padding-bottom:200px;
-    background-image:url('img/code3.jpg');
-    background-size:cover;
+  padding: 80px;
 }
 
 .left{
