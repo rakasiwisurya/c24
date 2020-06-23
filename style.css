@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 @keyframes example {
-  from {background-color: #6C63FF;}
-  to {background-color: white;}
+  from {background-color: #191735;}
+  to {background-color: #6C63FF;}
 }
 
 * {
@@ -126,7 +126,7 @@ header {
   text-align:center;
   padding: 80px 0px;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 10s;
 }
 
 #team-wrapper h2{
