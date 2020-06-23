@@ -1,9 +1,14 @@
 /* Untuk Tablet */
 @media screen and (max-width: 1000px) {
-  .team{
-    width: 33%;
-    margin-right: 20px;
-    margin-bottom: 20px;}
+  .teams{
+    flex-wrap: wrap;
+  }
+
+  .team {
+    width: 30%;
+    margin-right: 20px; 
+    margin-bottom: 20px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -16,9 +21,22 @@
     display: block;
   }
 
-  .team{
-    width: 50%;
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .team {
+    width: 100%;
+    margin-right: 0px;
     margin-bottom: 20px;
+  }
+
+  .join {
+    width: 100%;
   }
 
 }
