@@ -69,39 +69,43 @@ header {
   line-height: 65px;
 }
 
+.menu-icon {
+  color: white;
+  float: left;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 /* Bagian Top Wrapper */
-.top-wrapper {
-  padding-top:80px;
-  padding-bottom:200px;
-  background-image:url('img/code3.jpg');
-  background-size:cover;
+#top-wrapper {
+  padding:180px 0px;
 }
 
 .left{
   float:left;
-  padding-left:25px;
-  padding-top:200px;
+  text-align: center;
+  width: 45%;
+  padding: 80px 0px;
 }
   
 .left h2{
-  font-size:15px;
-  font-weight:normal;
+  font-size:26px;
+  padding-bottom: 20px;
 }
-  
-.right img{
-  padding-top:180px;
+
+.left p {
+  margin-bottom: 10px;
+}
+
+.right {
   float:right;
-  width:420px;
-  height:400px;
-  padding-right:5px;
+  text-align: center;
+  width: 45%;
 }
 
 .right img{
-  padding-top:180px;
-  float:right;
-  width:420px;
-  height:400px;
-  padding-right:5px;
+  height: 300px;
 }
   
 /* Bagian Team Wrapper */
@@ -156,6 +160,7 @@ header {
 .heading h4 {
   font-weight: normal;
 }
+
 .btn {
   padding: 12px 24px;
   color: white;
