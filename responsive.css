@@ -29,10 +29,14 @@
     display: none;
   }
 
+  .teams {
+    margin: 0px 70px;
+  }
+
   .team {
     width: 100%;
     margin-right: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .join {
