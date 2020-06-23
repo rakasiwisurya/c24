@@ -67,24 +67,7 @@ header {
 
 .content-header a {
     line-height: 65px;
-    float: left;
-    color: white;
-    padding: 0 25px;
-    transition: all 0.5s;
-    display: block;
-}
 
-.content-header a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu-icon {
-    color: white;
-    float: left;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-}
 
 /* Bagian Top Wrapper */
 .top-wrapper {
@@ -99,10 +82,12 @@ header {
     padding-left:25px;
     padding-top:200px;
 }
+  
 .left h2{
     font-size:15px;
     font-weight:normal;
 }
+  
 .right img{
     padding-top:180px;
     float:right;
@@ -110,6 +95,15 @@ header {
     height:400px;
     padding-right:5px;
 }
+
+.right img{
+    padding-top:180px;
+    float:right;
+    width:420px;
+    height:400px;
+    padding-right:5px;
+}
+  
 /* Bagian Team Wrapper */
     .team-wrapper {
      padding: 0% 5%;
@@ -147,11 +141,64 @@ header {
     
 
 /* Bagian Join Wrapper */
-.join-wrapper {
-
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
 }
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h4 {
+  font-weight: normal;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.join-wrapper {
+ border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.join {
+  padding: 15px 40px;
+  background-color: #6C63FF;
+  cursor: pointer;
+  box-shadow: 0 7px #000;
+}
+
+.join:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
 
 /* Bagian Footer */
 footer {
-
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #6C63FF;
+    position: fixed;
+    width: 100%;
 }
+footer p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+  
